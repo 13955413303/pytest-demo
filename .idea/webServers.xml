@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b04c6e5b-4e62-4745-a02b-4724c4b17372" name="47.100.137.139">
+        <fileTransfer rootFolder="/home/demo/share/pytestdemo" accessType="SFTP" host="47.100.137.139" port="22" sshConfigId="2943cc75-4aee-430f-8851-471014cf049e" sshConfig="demo@47.100.137.139:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

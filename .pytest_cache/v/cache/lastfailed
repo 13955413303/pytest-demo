@@ -1,0 +1,6 @@
+{
+  "testcase/test_login.py::TestLogin::test_03_zhiliao": true,
+  "testcase/test_mashang.py::test_huahua": true,
+  "testcase/test_mashang2.py::test_huahua": true,
+  "testcase/user/test_mashang2.py::test_huahua1": true
+}
