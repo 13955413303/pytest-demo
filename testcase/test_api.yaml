@@ -1,10 +1,11 @@
 -
   name: 列出所有客户
   request:
-    url: http://127.0.0.1/api/mgr/customers?action=list_customer
+    url: http://47.100.137.139:8000/api/mgr/customers?action=list_customer
     method: GET
     headers:
         Content-type: application/json
+        Cookie: sessionid=80igjg6ggvpt5pqgsv6jnfrq8nauad29
     params:
         action: list_customer
   assert:
