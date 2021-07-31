@@ -1,3 +1,4 @@
+#用例1
 -
   name: 列出所有客户
   request:
@@ -5,7 +6,21 @@
     method: GET
     headers:
         Content-type: application/json
-        Cookie: sessionid=80igjg6ggvpt5pqgsv6jnfrq8nauad29
+        Cookie: sessionid=vvqbm43xkmom6dpaymho9ktv7lehkm33
+    params:
+        action: list_customer
+  assert:
+    eq:
+      ret: 0
+
+#用例2
+-
+  name: 列出所有客户
+  request:
+    url: http://47.100.137.139:8000/api/mgr/customers?action=list_customer
+    method: GET
+    headers:
+        Content-type: application/json
     params:
         action: list_customer
   assert:
